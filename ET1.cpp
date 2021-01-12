@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//INFIX TO POSTFIX
+
 int prec(char c)
 {
     if(c == '+' || c == '-')
